@@ -1,9 +1,9 @@
+# Создание базы данных для бота
+
 import sqlite3
 
 conn = sqlite3.connect('water_delivery.db')
-# base_clinets metal_gear_model 
-# base_items metal_gear_tth
-# base_orders metal_gear_pilot
+
 conn.execute('''
 CREATE TABLE IF NOT EXISTS base_clinets 
 (
