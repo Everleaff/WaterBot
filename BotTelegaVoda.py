@@ -1,4 +1,5 @@
 # Импорт необходимых библиотек и модулей.
+# Для написания данного бота была использована устаревшая версия aiogram 2.25.1, поэтому на новой версии библиотеки могут быть проблемы с работоспособностью кода
 from aiogram import Bot,Dispatcher,types, executor
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher.filters.state import StatesGroup, State
